@@ -1,0 +1,74 @@
+/*Nav*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*Nav*/
+/*Fortsätt med side bar sen*/
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.card {
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+}
+.Side{
+  Float:right;
+  width: 20%;
+}
+/*Fortsätt med side bar sen*/
+
+/*Page*/
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/*Page*/
+
+/*background*/
+body {
+
+  font-family: Arial;
+  padding: 10px;
+  background: #3943;
+}
+/*background*/
